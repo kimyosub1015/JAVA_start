@@ -46,7 +46,7 @@ public class ChatClient {
 			// 6. ChatClientRecevieThread 시작
 			Thread thread = new ChatClientReceiveThread(bufferedReader);
 			thread.start();
-
+			//이게뭐야이게
 			// 7. 키보드 입력 처리
 			while (true) {
 				//System.out.print(">>");
